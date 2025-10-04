@@ -1,0 +1,13 @@
+# Node.js example
+node_modules/
+dist/
+# .env
+*.log
+
+# macOS system files
+.DS_Store
+
+# Python example
+__pycache__/
+*.pyc
+*.pyo

@@ -1,0 +1,26 @@
+{
+  "name": "api-gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:api":"nodemon ./server.js",
+    "start:auth":"cd ../auth-service && npm run dev",
+    "start:user":"cd ../user-service && npm run dev",
+    "start:all": "concurrently -n \"API,AUTH,USER\" -c \"blue,green,yellow\" \"npm run start:api\" \"npm run start:auth\" \"npm run start:user\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "nodemon": "^3.1.10"
+  }
+}
