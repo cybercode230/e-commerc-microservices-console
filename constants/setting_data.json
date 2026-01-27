@@ -1,0 +1,32 @@
+{
+  "splash": {
+    "tagline": "Think • Solve • Build",
+    "logoImage": "techmindLogo.png",
+    "backgroundColor": "#ffffff",
+    "loadingText": "Preparing your mind..."
+  },
+  "onboarding": [
+    {
+      "id": "1",
+      "title": "Think Like an Engineer",
+      "subtitle": "Real-world tech challenges that sharpen logic and creativity.",
+      "lottieFile": "Young programmers working with computer.json"
+    },
+    {
+      "id": "2",
+      "title": "Solve Real Problems",
+      "subtitle": "Debug systems, design solutions, and optimize decisions.",
+      "lottieFile": "A hacker breaks into a program.json"
+    },
+    {
+      "id": "3",
+      "title": "Grow Without Burnout",
+      "subtitle": "Calm logic games and strategic challenges for focus.",
+      "lottieFile": "Ai-powered marketing tools abstract.json"
+    }
+  ],
+  "theme": {
+    "primaryColor": "#4F46E5",
+    "accentColor": "#06B6D4"
+  }
+}
